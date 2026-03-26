@@ -1,0 +1,8 @@
+# .gitignore for .NET
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.doccache
