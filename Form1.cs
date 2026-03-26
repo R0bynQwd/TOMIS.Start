@@ -14,6 +14,7 @@ namespace TOMIS.Start
     {
         public Form1()
         {
+            // Initializare componente vizuale pentru aplicatia TOMIS.Start
             InitializeComponent();
         }
     }
