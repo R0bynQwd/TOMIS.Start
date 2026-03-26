@@ -31,7 +31,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <PostBuildEvent>powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$(ProjectDir)ReleaseCommit.ps1"</PostBuildEvent>
+    <PostBuildEvent>powershell.exe -NoProfile -ExecutionPolicy Bypass -Command "&amp; '$(ProjectDir)ReleaseCommit.ps1'; exit 0"</PostBuildEvent>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
